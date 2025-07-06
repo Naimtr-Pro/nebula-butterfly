@@ -4,7 +4,7 @@
 
 ## 🚀 Demonstração
 
-👉 file:///C:/Users/nialk/OneDrive/Desktop/nebula-butterfly-full%20(1)/index.html
+👉 [https://Naimtr-Pro.github.io/nebula-butterfly/](https://Naimtr-Pro.github.io/nebula-butterfly/)
 
 ## 📂 Estrutura
 
