@@ -4,10 +4,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(180deg, #0b0033 0%, #3d1e6d 50%, #260f48 100%);
   color: #ffffff;
-  background-image: url('https://images.unsplash.com/photo-1603437873662-9fa09c3f7ccf?fit=crop&w=1500&q=80');
   background-size: cover;
   background-attachment: fixed;
-  background-blend-mode: overlay;
 }
 
 header {
@@ -26,7 +24,6 @@ h1 {
 p.tagline {
   font-size: 1.2rem;
   color: #e0b3ff;
-  margin-top: 0.5rem;
 }
 
 .container {
@@ -35,13 +32,10 @@ p.tagline {
   padding: 2rem;
   background-color: rgba(20, 10, 40, 0.7);
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 153, 255, 0.2);
 }
 
 h2 {
   color: #ffb3ff;
-  border-bottom: 1px solid #aa66cc;
-  padding-bottom: 0.5rem;
 }
 
 a {
@@ -50,7 +44,6 @@ a {
 }
 
 a:hover {
-  color: #ff99ff;
   text-decoration: underline;
 }
 
@@ -58,16 +51,51 @@ footer {
   text-align: center;
   padding: 2rem;
   font-size: 0.9rem;
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .butterfly {
   width: 100px;
-  height: auto;
   animation: flutter 6s infinite ease-in-out;
 }
 
 @keyframes flutter {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-15px) rotate(3deg); }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
 }
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #aa66cc;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin-top: 0.5rem;
+  color: #ffccff;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  color: #e6cfff;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #ffd6ff;
+  font-weight: bold;
+}
+
