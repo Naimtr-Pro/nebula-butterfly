@@ -8,3 +8,22 @@
 
 ## 📂 Estrutura
 
+nebula-butterfly/
+├── index.html
+├── css/
+│   └── style.css
+
+## ⚙️ Como usar
+
+1. **Clone o repositório**
+   git clone https://github.com/Naimtr-Pro/nebula-butterfly.git
+
+2. Edite os projetos e personalize.
+
+3. Publique no GitHub Pages:
+   - Settings → Pages → Branch `main` → `/root`
+
+## ✨ Contato
+
+**GitHub:** [@Naimtr-Pro](https://github.com/Naimtr-Pro)  
+📧 **Email:** naiane.mtr@gmail.com
