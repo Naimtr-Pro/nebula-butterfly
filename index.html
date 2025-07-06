@@ -5,81 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nebula Butterfly</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Montserrat', sans-serif;
-      background: linear-gradient(180deg, #0b0033 0%, #3d1e6d 50%, #260f48 100%);
-      color: #ffffff;
-      background-image: url('https://images.unsplash.com/photo-1603437873662-9fa09c3f7ccf?fit=crop&w=1500&q=80');
-      background-size: cover;
-      background-attachment: fixed;
-      background-blend-mode: overlay;
-    }
-
-    header {
-      text-align: center;
-      padding: 4rem 1rem;
-      background-color: rgba(0, 0, 0, 0.6);
-    }
-
-    h1 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 3rem;
-      color: #ffccff;
-      text-shadow: 0 0 10px #ff99ff;
-    }
-
-    p.tagline {
-      font-size: 1.2rem;
-      color: #e0b3ff;
-      margin-top: 0.5rem;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 2rem auto;
-      padding: 2rem;
-      background-color: rgba(20, 10, 40, 0.7);
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(255, 153, 255, 0.2);
-    }
-
-    h2 {
-      color: #ffb3ff;
-      border-bottom: 1px solid #aa66cc;
-      padding-bottom: 0.5rem;
-    }
-
-    a {
-      color: #ffd6ff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #ff99ff;
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      background-color: rgba(0, 0, 0, 0.4);
-    }
-
-    .butterfly {
-      width: 100px;
-      height: auto;
-      animation: flutter 6s infinite ease-in-out;
-    }
-
-    @keyframes flutter {
-      0%, 100% { transform: translateY(0) rotate(0deg); }
-      50% { transform: translateY(-15px) rotate(3deg); }
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
@@ -90,17 +16,34 @@
 
   <div class="container">
     <h2>🌟 Sobre Mim</h2>
-    <p>Olá! Sou uma desenvolvedora apaixonada por galáxias, arte digital e interfaces que encantam. Este projeto mistura a beleza do universo com a delicadeza de borboletas cósmicas.</p>
+    <p>Olá! Sou Naiane, desenvolvedora apaixonada por galáxias, arte digital e interfaces encantadoras.</p>
 
-    <h2>💻 Projetos</h2>
-    <ul>
-      <li><a href="#">🪐 Nebula Portfolio</a></li>
-      <li><a href="#">🦋 Flutter Galaxy UI</a></li>
-      <li><a href="#">✨ CSS Animations: Butterfly Wings</a></li>
-    </ul>
+    <h2>💻 Nebula Portfolio</h2>
+    <div class="portfolio">
+      <div class="project-card">
+        <img src="img/projeto1.jpg" alt="Projeto 1">
+        <h3>🪐 Nebula Landing Page</h3>
+        <p>Site cósmico com efeitos em CSS e animações suaves.</p>
+        <a href="#">Ver Projeto</a>
+      </div>
+
+      <div class="project-card">
+        <img src="img/projeto2.jpg" alt="Projeto 2">
+        <h3>🦋 UI Flutter Galaxy</h3>
+        <p>Interface inspirada em galáxias com widgets interativos.</p>
+        <a href="#">Ver Projeto</a>
+      </div>
+
+      <div class="project-card">
+        <img src="img/projeto3.jpg" alt="Projeto 3">
+        <h3>✨ Butterfly Animations</h3>
+        <p>Animações CSS para simular o voo de borboletas no espaço.</p>
+        <a href="#">Ver Projeto</a>
+      </div>
+    </div>
 
     <h2>📬 Contato</h2>
-    <p>Me encontre no <a href="https://github.com/Naimtr-Pro" target="_blank">GitHub</a> ou envie um e-mail para <a href="mailto:seunome@email.com">naiane.mtr@email.com</a>.</p>
+    <p>GitHub: <a href="https://github.com/Naimtr-Pro" target="_blank">Naimtr-Pro</a> | Email: <a href="mailto:naiane.mtr@gmail.com">naiane.mtr@gmail.com</a></p>
   </div>
 
   <footer>
@@ -108,4 +51,5 @@
   </footer>
 </body>
 </html>
+
 
