@@ -1,61 +1,100 @@
-
 body {
-  background: linear-gradient(to bottom, #0b032d, #3b0d67);
-  color: #fff;
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(180deg, #0b0033 0%, #3d1e6d 50%, #260f48 100%);
+  color: #ffffff;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
   text-align: center;
-  padding: 50px 20px 20px;
+  padding: 4rem 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-header h1 {
-  font-size: 3em;
-  color: #ffb3ec;
-  text-shadow: 0 0 10px #ffb3ec;
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  color: #ffccff;
+  text-shadow: 0 0 10px #ff99ff;
 }
 
-header p {
-  font-size: 1.2em;
+p.tagline {
+  font-size: 1.2rem;
+  color: #e0b3ff;
 }
 
-section.about, section.portfolio {
-  max-width: 800px;
-  margin: 40px auto;
-  background: rgba(255, 255, 255, 0.05);
-  padding: 20px;
-  border-radius: 10px;
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(20, 10, 40, 0.7);
+  border-radius: 12px;
 }
 
 h2 {
-  color: #ffb3ec;
+  color: #ffb3ff;
 }
 
-.project {
-  background: rgba(0, 0, 0, 0.2);
-  margin: 20px 0;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.project h3 {
-  margin-top: 0;
-  color: #ffb3ec;
-}
-
-.project a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #00ffff;
+a {
+  color: #ffd6ff;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
   text-align: center;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.2);
-  margin-top: 40px;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+.butterfly {
+  width: 100px;
+  animation: flutter 6s infinite ease-in-out;
+}
+
+@keyframes flutter {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #aa66cc;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin-top: 0.5rem;
+  color: #ffccff;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  color: #e6cfff;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #ffd6ff;
+  font-weight: bold;
 }
